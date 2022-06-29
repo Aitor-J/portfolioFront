@@ -9,7 +9,7 @@ type CurrentTestProps = { children: React.ReactNode };
 
 const CurrentTestContext = createContext<TestContent>({
   numberClick: 0,
-  setNumberClick: () => {},
+  setNumberClick: () => { },
 });
 
 export const CurrentTestContextProvider = ({ children }: CurrentTestProps) => {

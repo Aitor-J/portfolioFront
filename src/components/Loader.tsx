@@ -8,12 +8,12 @@ const Loader = () => {
           <img
             src="/assets/plane.png"
             alt="plane"
-            className="loader__icon__img1"
+            className="loader__icon__planes"
           />
           <img
             src="/assets/earth.png"
             alt="plane"
-            className="loader__icon__img2"
+            className="loader__icon__earth"
           />
         </div>
       </div>

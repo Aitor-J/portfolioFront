@@ -1,9 +1,11 @@
-@import 'sass/variables';
-@import 'sass/abstract';
-@import 'sass/typography';
-@import 'sass/index';
-@import 'sass/navbar';
+@import 'sass/global/variables';
+@import 'sass/global/abstract';
+@import 'sass/global/typography';
+@import 'sass/global/index';
+@import 'sass/global/navbar';
+@import 'sass/global/loader';
 @import 'sass/home';
-@import 'sass/loader';
 @import 'sass/about';
 @import 'sass/skills';
+@import 'sass/projects';
+@import 'sass/contact';

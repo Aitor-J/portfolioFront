@@ -28,15 +28,15 @@
 
     &__icon {
 
-        &__img1 {
+        &__planes {
             position: absolute;
-            height: 18vh;
+            height: 10rem;
             animation: rotation 10s infinite linear;
         }
 
-        &__img2 {
+        &__earth {
             position: relative;
-            height: 18vh;
+            height: 10rem;
         }
 
         @keyframes rotation {

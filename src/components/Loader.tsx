@@ -1,25 +1,22 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 const Loader = () => {
-  const [isLoading, setIsLoading] = useState(true);
-
-  const loading = () => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 3000);
-  };
-
-  useEffect(() => {
-    loading();
-  }, []);
-
   return (
     <>
-      {isLoading && (
-        <div className="loader">
-          <h1>Waiting</h1>
+      <div className="loader">
+        <div className="loader__icon">
+          <img
+            src="/assets/plane.png"
+            alt="plane"
+            className="loader__icon__img1"
+          />
+          <img
+            src="/assets/earth.png"
+            alt="plane"
+            className="loader__icon__img2"
+          />
         </div>
-      )}
+      </div>
     </>
   );
 };

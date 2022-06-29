@@ -9,3 +9,8 @@ Clone the repo and run `npm install`
 ## Start
 
 After the successfull installation of the packages: `npm dev`
+
+### React Icon 
+-https://react-icons.github.io/react-icons/
+
+-npm install react-icons --save

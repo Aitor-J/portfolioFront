@@ -3,3 +3,10 @@
   margin: 0;
   scroll-behavior: smooth;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: black;
+}
